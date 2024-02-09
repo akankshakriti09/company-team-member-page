@@ -19,6 +19,9 @@ function Services() {
           </div>
 
           {/* Leadership Management Team */}
+          <div class="team-category">
+            <p>Leadership / Management Team</p>
+          </div>
           <div class="col-sm-6 col-md-4">
             <div class="team-item">
               <img
@@ -99,6 +102,9 @@ function Services() {
           </div>
 
           {/* Development Team */}
+          <div class="team-category">
+            <p>Development Team</p>
+          </div>
           <div class="col-sm-6 col-md-4">
             <div class="team-item">
               <img
@@ -179,6 +185,9 @@ function Services() {
           </div>
 
           {/* Sales and Marketing Team */}
+          <div class="team-category">
+            <p>Sales and Marketing Team</p>
+          </div>
           <div class="col-sm-6 col-md-4">
             <div class="team-item">
               <img

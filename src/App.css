@@ -34,6 +34,17 @@ h2 {
   height: 3px;
 }
 
+.team-category {
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#046748, #11d885);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
 .team-item {
   background: #f4f5f6;
   text-align: center;
