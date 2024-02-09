@@ -1,38 +1,104 @@
-.App {
+.section-white {
+  background: #fff;
+  padding: 70px 0;
+}
+
+h2 {
+  font-size: 45px;
+  background: -webkit-linear-gradient(#ace4c1, #03bf7d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.meet-our-team {
+  font-size: 30px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#757474, #0f0f0f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.meet-our-team::before {
+  background: #5b5e5d;
+  background: -webkit-linear-gradient(135deg, #676868 0%, #292a29 100%);
+  background: -o-linear-gradient(bottom right, #676868 0%, #797b79);
+  background: -moz-linear-gradient(bottom right, #414241, #696a6a);
+  background: linear-gradient(135deg, #5e6160 0%, #6c6e6d 100%);
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 400px;
+  height: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.team-item {
+  background: #f4f5f6;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px 10px 20px 10px;
+  border-radius: 8px 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.team-item:hover {
+  background: #0ab065;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.team-item h3 {
+  margin: 20px 0 1px 0 !important;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-subtitle {
+  white-space: pre-line;
+}
+
+.team-item:hover h3 {
+  color: #ddd;
+}
+
+.team-info {
+  display: block;
+  margin-bottom: 0;
+}
+
+.team-info p {
+  color: #acacac;
+  font-style: italic;
+}
+
+.team-info::after {
+  background: #04ab60;
+  background: -webkit-linear-gradient(135deg, #03b263 0%, #06c60a 100%);
+  background: -o-linear-gradient(bottom right, #05c46e 0%, #06c60a);
+  background: -moz-linear-gradient(bottom right, #068047, #08d05f);
+  background: linear-gradient(135deg, #04a06c 0%, #15df7a 100%);
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 50px;
+  height: 3px;
+}
+
+.team-img {
+  max-width: 140px;
+  padding: 6px 6px;
+  background-color: #dedede;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
